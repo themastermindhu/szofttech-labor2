@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/paid-vacation-days/static/css/main.d4fc967c.chunk.css",
+    "main.js": "/paid-vacation-days/static/js/main.a90cca7b.chunk.js",
+    "main.js.map": "/paid-vacation-days/static/js/main.a90cca7b.chunk.js.map",
+    "runtime-main.js": "/paid-vacation-days/static/js/runtime-main.825788ab.js",
+    "runtime-main.js.map": "/paid-vacation-days/static/js/runtime-main.825788ab.js.map",
+    "static/js/2.99342b68.chunk.js": "/paid-vacation-days/static/js/2.99342b68.chunk.js",
+    "static/js/2.99342b68.chunk.js.map": "/paid-vacation-days/static/js/2.99342b68.chunk.js.map",
+    "index.html": "/paid-vacation-days/index.html",
+    "precache-manifest.8ba9b22ec80fb6c08499058b558f838f.js": "/paid-vacation-days/precache-manifest.8ba9b22ec80fb6c08499058b558f838f.js",
+    "service-worker.js": "/paid-vacation-days/service-worker.js",
+    "static/css/main.d4fc967c.chunk.css.map": "/paid-vacation-days/static/css/main.d4fc967c.chunk.css.map",
+    "static/js/2.99342b68.chunk.js.LICENSE.txt": "/paid-vacation-days/static/js/2.99342b68.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.825788ab.js",
+    "static/js/2.99342b68.chunk.js",
+    "static/css/main.d4fc967c.chunk.css",
+    "static/js/main.a90cca7b.chunk.js"
+  ]
+}
