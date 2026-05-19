@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/extra-holiday/static/css/main.1337e5a0.chunk.css",
+    "main.js": "/extra-holiday/static/js/main.bacd71ea.chunk.js",
+    "main.js.map": "/extra-holiday/static/js/main.bacd71ea.chunk.js.map",
+    "runtime-main.js": "/extra-holiday/static/js/runtime-main.ac490099.js",
+    "runtime-main.js.map": "/extra-holiday/static/js/runtime-main.ac490099.js.map",
+    "static/js/2.8b009c2d.chunk.js": "/extra-holiday/static/js/2.8b009c2d.chunk.js",
+    "static/js/2.8b009c2d.chunk.js.map": "/extra-holiday/static/js/2.8b009c2d.chunk.js.map",
+    "static/js/3.d1b26691.chunk.js": "/extra-holiday/static/js/3.d1b26691.chunk.js",
+    "static/js/3.d1b26691.chunk.js.map": "/extra-holiday/static/js/3.d1b26691.chunk.js.map",
+    "index.html": "/extra-holiday/index.html",
+    "static/css/main.1337e5a0.chunk.css.map": "/extra-holiday/static/css/main.1337e5a0.chunk.css.map",
+    "static/js/2.8b009c2d.chunk.js.LICENSE.txt": "/extra-holiday/static/js/2.8b009c2d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac490099.js",
+    "static/js/2.8b009c2d.chunk.js",
+    "static/css/main.1337e5a0.chunk.css",
+    "static/js/main.bacd71ea.chunk.js"
+  ]
+}
