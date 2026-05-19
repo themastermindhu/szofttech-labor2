@@ -1,2 +1,196 @@
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#282c34;color:#bcf08c}code{font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace;color:#50ac8d}.container{display:flex;flex-direction:row;justify-items:left;justify-content:space-around;width:clamp(768px,80%,1200px);margin:0 auto;padding:20px}.container .leftInput{display:flex;flex-direction:column}.container .leftInput textarea{width:600px;border:1px solid #8ec758;background:transparent;color:#bcf08c;font-size:1.1rem}.container .leftInput textarea::-webkit-resizer{border-color:transparent #bcf08c #bcf08c transparent;border-style:solid;border-width:8px}.container .leftInput .buttons{margin-top:10px;display:flex;flex-direction:row;justify-content:space-between}.container .leftInput .buttons button{background-color:#66cdaa;border:none;color:#191970;padding:8px 16px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;cursor:pointer}.container .leftInput .buttons button:hover{background-color:#50ac8d}.usageContainer{width:600px;margin:0 auto}.usageContainer.hidden{display:none}.testCaseTable table{border:1px solid #8ec758;border-collapse:collapse;color:#bcf08c}.testCaseTable table td,.testCaseTable table th{border:1px solid #8ec758;padding:5px}.backLink{background-color:#1e73be;min-height:76px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:17;color:#fff}
-/*# sourceMappingURL=main.733f38af.chunk.css.map */
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#282c34;color:#bcf08c}code{font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace}.container{display:flex;flex-direction:row;justify-items:left;justify-content:space-around;width:clamp(768px,80%,1200px);margin:0 auto;padding:20px}.container .leftInput{display:flex;flex-direction:column}.container .leftInput textarea{width:600px;border:1px solid #8ec758;background:transparent;color:#bcf08c;font-size:1.1rem}.container .leftInput button{background-color:#50ac8d;border:none;color:#282c34;font-size:1.2rem;padding:5px;border-radius:3px}.container .rightOutput table{border:1px solid #8ec758;border-collapse:collapse;color:#bcf08c}.container .rightOutput table td,.container .rightOutput table th{border:1px solid #8ec758;padding:5px}.usageContainer{width:600px;margin:0 auto}.usageContainer .toggleButton{margin-left:10px;background-color:transparent;color:#8ec758;border:2px solid #8ec758;border-radius:5px}.usageContainer .usageText.hidden{display:none}code{color:#50ac8d}.backLink{background-color:#1e73be;min-height:76px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:17;color:#fff}
+/*# sourceMappingURL=main.4860ccee.chunk.css.map */
+/* Integrated exercise redesign: remove legacy external back link and align exercise UI with Test Design shell */
+.Back-header,
+.Back {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+}
+
+.App {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(6, 182, 212, 0.18), transparent 34rem),
+    radial-gradient(circle at bottom right, rgba(37, 99, 235, 0.16), transparent 34rem),
+    #0f172a !important;
+}
+
+.App-header {
+  min-height: 100vh !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 1.25rem !important;
+  padding: clamp(1.25rem, 3vw, 3rem) !important;
+  background: transparent !important;
+  color: #e5f4ff !important;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
+
+.exercise {
+  width: min(100%, 72rem) !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 1rem 1.25rem !important;
+  border: 1px solid rgba(34, 211, 238, 0.28) !important;
+  border-radius: 1.25rem !important;
+  background: rgba(15, 23, 42, 0.72) !important;
+  color: #a7f3d0 !important;
+  box-shadow: 0 18px 45px rgba(2, 6, 23, 0.22) !important;
+  text-align: left !important;
+  font-size: 0.95rem !important;
+}
+
+.exercise a {
+  color: #67e8f9 !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(103, 232, 249, 0.55) !important;
+}
+
+.specification {
+  position: relative !important;
+  width: min(100%, 72rem) !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: clamp(1.25rem, 2.4vw, 2rem) !important;
+  border: 1px solid rgba(125, 211, 252, 0.28) !important;
+  border-radius: 1.5rem !important;
+  background:
+    linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(30, 41, 59, 0.92)) padding-box,
+    linear-gradient(135deg, rgba(34, 211, 238, 0.7), rgba(37, 99, 235, 0.65)) border-box !important;
+  color: #dbeafe !important;
+  text-align: left !important;
+  font-size: 0.98rem !important;
+  line-height: 1.65 !important;
+  box-shadow: 0 24px 70px rgba(2, 6, 23, 0.34) !important;
+  overflow: hidden !important;
+}
+
+.specification::before {
+  content: "Exercise specification";
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.9rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(8, 145, 178, 0.18);
+  color: #67e8f9;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.specification > div:first-child,
+.specification b:first-child,
+.specification div[style*="center"] {
+  color: #ecfeff !important;
+  font-size: clamp(1.35rem, 2.2vw, 2rem) !important;
+  line-height: 1.2 !important;
+  margin-bottom: 0.85rem !important;
+  text-align: left !important;
+}
+
+.specification b {
+  color: #bef264 !important;
+  font-weight: 800 !important;
+}
+
+.testcases {
+  width: min(100%, 72rem) !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 1.25rem !important;
+  border: 1px solid rgba(148, 163, 184, 0.22) !important;
+  border-radius: 1.5rem !important;
+  background: rgba(15, 23, 42, 0.78) !important;
+  color: #bae6fd !important;
+  text-align: left !important;
+  font-size: 0.98rem !important;
+  box-shadow: 0 18px 50px rgba(2, 6, 23, 0.28) !important;
+}
+
+input,
+select,
+textarea {
+  min-height: 2.35rem !important;
+  margin: 0.25rem 0.35rem !important;
+  padding: 0.45rem 0.7rem !important;
+  border: 1px solid rgba(148, 163, 184, 0.38) !important;
+  border-radius: 0.75rem !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  color: #0f172a !important;
+  font-size: 0.95rem !important;
+  outline: none !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #22d3ee !important;
+  box-shadow: 0 0 0 4px rgba(34, 211, 238, 0.2) !important;
+}
+
+button,
+.button {
+  appearance: none !important;
+  border: 0 !important;
+  border-radius: 0.85rem !important;
+  padding: 0.7rem 1rem !important;
+  background: linear-gradient(135deg, #22d3ee, #2563eb) !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  font-size: 0.92rem !important;
+  letter-spacing: 0.01em !important;
+  cursor: pointer !important;
+  box-shadow: 0 12px 28px rgba(37, 99, 235, 0.28) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease !important;
+}
+
+button:hover,
+.button:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 18px 36px rgba(37, 99, 235, 0.34) !important;
+  filter: brightness(1.04) !important;
+}
+
+button:active,
+.button:active {
+  transform: translateY(0) !important;
+}
+
+@media (max-width: 720px) {
+  .App-header {
+    padding: 1rem !important;
+    gap: 1rem !important;
+  }
+
+  .exercise,
+  .specification,
+  .testcases {
+    border-radius: 1rem !important;
+    padding: 1rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  input,
+  select,
+  textarea,
+  button,
+  .button {
+    width: auto !important;
+    max-width: 100% !important;
+    margin-top: 0.4rem !important;
+  }
+}
