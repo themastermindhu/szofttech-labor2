@@ -1,0 +1,41 @@
+//!!!!   teams[j].deleted = true;
+
+//!!!!  if (team.m1 === "" || team.m2 === "" || team.m3 === "") return true;
+
+//!!!! - findNum;
+
+//!!!! -1
+
+//!!!! <= 3
+
+//!!!! > 0
+
+//!!!! i <= 3
+
+//!!!! if (!t.deleted) {
+
+//!!!! if (currentTeam.m1 !== "") teamToModify.m1 = currentTeam.m1;
+
+//!!!! if (currentTeam.m3 !== "") teamToModify.m3 = currentTeam.m3;
+
+//!!!! j = 1
+
+//!!!! teamArray[j]
+
+//!!!! teams[toModify].deleted = false;
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//!!!!t.m1 === team.m2 ||
+
+//!!!!t.m1 === team.m3 ||
+
+//!!!!t.m2 === team.m1 ||
+
+//!!!!t.m2 === team.m2 ||
+
+//!!!!t.m2 === team.m3 ||
+
+//!!!!t.m3 === team.m1 ||
+
+//!!!!t.m3 === team.m2 ||

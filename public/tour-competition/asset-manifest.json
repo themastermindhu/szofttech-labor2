@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tour-competition/static/css/main.1337e5a0.chunk.css",
+    "main.js": "/tour-competition/static/js/main.a9a12ca0.chunk.js",
+    "main.js.map": "/tour-competition/static/js/main.a9a12ca0.chunk.js.map",
+    "runtime-main.js": "/tour-competition/static/js/runtime-main.11f49538.js",
+    "runtime-main.js.map": "/tour-competition/static/js/runtime-main.11f49538.js.map",
+    "static/js/2.865771d4.chunk.js": "/tour-competition/static/js/2.865771d4.chunk.js",
+    "static/js/2.865771d4.chunk.js.map": "/tour-competition/static/js/2.865771d4.chunk.js.map",
+    "static/js/3.6b26fce6.chunk.js": "/tour-competition/static/js/3.6b26fce6.chunk.js",
+    "static/js/3.6b26fce6.chunk.js.map": "/tour-competition/static/js/3.6b26fce6.chunk.js.map",
+    "index.html": "/tour-competition/index.html",
+    "static/css/main.1337e5a0.chunk.css.map": "/tour-competition/static/css/main.1337e5a0.chunk.css.map",
+    "static/js/2.865771d4.chunk.js.LICENSE.txt": "/tour-competition/static/js/2.865771d4.chunk.js.LICENSE.txt",
+    "static/js/main.a9a12ca0.chunk.js.LICENSE.txt": "/tour-competition/static/js/main.a9a12ca0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11f49538.js",
+    "static/js/2.865771d4.chunk.js",
+    "static/css/main.1337e5a0.chunk.css",
+    "static/js/main.a9a12ca0.chunk.js"
+  ]
+}
